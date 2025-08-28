@@ -32,7 +32,7 @@ def mask_data(field, data):
 def process_csv():
     with open(files, 'r') as csvfile:
         reader = csv.DictReader(csvfile)
-        fieldnames = reader.fieldnames + ['Is_confidential']
+        fieldnames = reader.fieldnames + ['is_pii']
         rows = []
 
         for row in reader:

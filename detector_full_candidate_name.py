@@ -4,7 +4,7 @@ import sys
 
 
 files = sys.argv[1]
-output = 'updated_data.csv'
+output = 'redacted_output_candidate_full_name.csv'
 
 
 sensitive_keys = {

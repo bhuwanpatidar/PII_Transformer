@@ -11,6 +11,5 @@ This Python program detects Personally Identifiable Information (PII) in text fi
 
 ## Requirements
 - Python 3.x
-- Install the necessary Python libraries using the following:
-  ```bash
-  pip install -r requirements.txt
+- Libraries Used :- sys,json and csv
+

@@ -68,7 +68,7 @@ def process_csv():
                             is_confidential = True
 
                 # updating from false to true if there is confidential data
-                row['Is_confidential'] = is_confidential
+                row['is_pii'] = is_confidential
                 row['data_json'] = json.dumps(data)
 
             except json.JSONDecodeError:
